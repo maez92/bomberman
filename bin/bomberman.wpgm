@@ -1,0 +1,13 @@
+import wollok.game.*
+import juego.*
+const a = new List()
+program bomberman {
+	game.width(13)
+	game.height(9)
+	game.title("Bomberman")
+	game.cellSize(65)
+	game.ground("assets/piso.png")
+	nivel1.configurar()
+	
+	game.start()
+}
